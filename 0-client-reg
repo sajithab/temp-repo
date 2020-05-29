@@ -1,1 +1,4 @@
+#!/bin/sh
+echo "Hello world"
+
 curl -k -X POST -H "Authorization: Basic YWRtaW46YWRtaW4=" -H "Content-Type: application/json" -d @payload.json https://api.wso2-api-mgr/client-registration/v0.16/register
