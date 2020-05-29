@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "https://gw.wso2-api-mgr/token"
+curl -k -d "grant_type=password&username=admin&password=admin&scope=apim:api_view" -H "Authorization: Basic ZmRpMklVRHNWR3BPQ1hySHRpajB1eDl5VWdjYTpjNGM1Uks1OTVLSm9VX280aDFGczVXQ2ZicXNh" https://gw.wso2-api-mgr/token
